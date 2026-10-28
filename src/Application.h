@@ -2,8 +2,8 @@
 // Created by Ace Jones on 10/1/26.
 //
 
-#ifndef CLIONTEST_APPLICATION_H
-#define CLIONTEST_APPLICATION_H
+#ifndef TESTER_APPLICATION_H
+#define TESTER_APPLICATION_H
 
 #include "Window.h"
 
@@ -49,7 +49,7 @@ public:
 private:
     virtual void Shutdown()
     {
-        SDL.Quit(); //hello???? shutdown right here
+        SDL.Quit();
     }
 
 

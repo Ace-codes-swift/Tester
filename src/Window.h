@@ -94,7 +94,7 @@ namespace Tester {
             cfg.FontBuilderFlags = ImGuiFreeTypeBuilderFlags_LightHinting; // Choose flags as needed
             cfg.FontBuilderSettings = &freetype_settings;
             app.SourceSans = io.Fonts->AddFontFromFileTTF("assets/fonts/SourceSans.ttf", 28.0f, &cfg);
-
+            app.Roboto = io.Fonts->AddFontFromFileTTF("assets/fonts/Roboto_Regular.ttf", 28.0f, &cfg);
             return true;
 
         }
